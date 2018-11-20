@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-bg-color: red;
+}
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background: url(../images/Waxom-Hemepage.png) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  width: 18rem;
+  height: 5.6rem;
+  /* margin-right: 20.2rem; */
+}
+.nav {
+  /* display: flex; */
+  padding: 4rem 3rem;
+}
+.nav__list {
+  display: flex;
+  padding: 1.5rem 0;
+}
+.nav__item {
+  list-style-type: none;
+  font-size: 1.2rem;
+  padding: 0 1.2rem;
+}
+.nav__item:first-child {
+  padding-left: 0;
+}
+.nav__item:last-child {
+  padding-right: 0;
+}
+.nav__link {
+  color: white;
+}
+.nav__link:hover {
+  color: #c7b299;
+  text-decoration: none;
+}
+.nav__cart,
+.nav__search {
+  font-size: 1.6rem;
+  color: white;
+  margin: 1.5rem 1.2rem;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content__design,
+.content__template,
+.content__detail {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.content__design {
+  font-size: 3.6rem;
+}
+.content__template {
+  font-size: 5.2rem;
+}
+.content__detail {
+  font-size: 1.6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
