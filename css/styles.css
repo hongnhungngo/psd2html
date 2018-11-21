@@ -9,6 +9,13 @@
 html {
   font-size: 62.5%;
 }
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+.second-font {
+  font-family: "Montserrat", sans-serif;
+}
 
 .header {
   background: url(../images/Waxom-Hemepage.png) no-repeat center center;
@@ -16,8 +23,7 @@ html {
   width: 100vw;
   /* display: flex; */
   position: relative;
-  padding-top: 38rem;
-  padding-bottom: 38rem;
+  height: 100vh;
   z-index: -1;
 }
 .container--center {
